@@ -4,18 +4,28 @@ from scipy import sparse
 import scipy.sparse.linalg
 import sys
 
-from algorithms import LIME
-
 import matplotlib.pyplot as plt
 
-from algorithms.LIME import spedup
+from algorithms.exact import optimize_T
+from algorithms.LIME import SpedUp_Solver
+from algorithms.illumination import basic
 
-raw_image = cv2.imread("Data/t4.jpg")
-raw_image = cv2.cvtColor(raw_image, cv2.COLOR_BGR2RGB)
-plt.figure(figsize=(16,4))
-plt.imshow(raw_image)
-plt.show()
+## SAMPLE-1
 
-output = spedup(raw_image, alpha = 0.1, epsilon = 0.2, weight_strategy = 1)
-plt.imshow(output)
-plt.show()
+img = cv2.imread('Data/9.bmp')
+
+output = SpedUp_Solver(img, alpha = 0.5, epsilon = 0.1, weight_strategy = 2)
+cv2.imshow('Input', img)
+cv2.imshow('output', output)
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+## SAMPLE-2
+
+img = cv2.imread('Data/7.bmp')
+
+output = SpedUp_Solver(img, alpha = 0.5, epsilon = 0.1, weight_strategy = 2)
+cv2.imshow('Input', img)
+cv2.imshow('output', output)
+cv2.waitKey()
+cv2.destroyAllWindows()

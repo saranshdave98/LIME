@@ -2,7 +2,7 @@
 
 __If the program executable doesnt work, please run the individual jupyter notebook files.__
 
-LIME: Low-light Image Enhancement via Illumination Map Estimation
+LIME: Low-light Image Enhancement via Illumination Map Estimation<br>
 This is a python implementation of the paper - http://www.dabi.temple.edu/~hbling/publication/LIME-tip.pdf
 
 The implementation is done using 2 algorithms.

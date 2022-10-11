@@ -20,11 +20,11 @@ If you face any issues running the python executable, please run the individual 
 
 # Some Results
 
-Results on some sample inputs from the paper (left-input, right-output).
+Results on some sample inputs from the paper (left-input, right-enhanced output).
 
 ![Results1](sample_result.jpg)
 
-Results on some custom inputs (left-input, right-output).
+Results on some custom inputs (left-input, right-enhanced output).
 
 ![Results2](our_custom_inputs.jpg)
 

@@ -16,3 +16,8 @@ Sped-Up Solver is implemented using this paper - http://citeseerx.ist.psu.edu/vi
 To run this program, execute code.py and wait for the output images to show up. After the first outputs are displayed, close the output image windows and wait for the next set of outputs. (Note: there are 2 sample outputs in total)
 
 If you face any issues running the python executable, please run the individual python notebooks to go through the algorithms.
+
+# Libraries Used
+ - cv2
+ - scipy
+ - numpy

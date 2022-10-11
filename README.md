@@ -17,7 +17,7 @@ To run this program, execute code.py and wait for the output images to show up. 
 
 If you face any issues running the python executable, please run the individual python notebooks to go through the algorithms.
 
-# Libraries Used (Python3)
+# Libraries Used (in Python3)
  - cv2
  - scipy
  - numpy

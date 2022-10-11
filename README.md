@@ -21,3 +21,8 @@ If you face any issues running the python executable, please run the individual 
  - cv2
  - scipy
  - numpy
+ 
+# Project Members
+
+  - [Saransh Dave](https://www.linkedin.com/in/saransh-dave/)
+  - [Aditya Kallappa](https://www.linkedin.com/in/aditya-kallappa/)

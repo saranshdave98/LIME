@@ -18,6 +18,20 @@ To run this program, execute code.py and wait for the output images to show up. 
 
 If you face any issues running the python executable, please run the individual python notebooks to go through the algorithms.
 
+# Some Results
+
+Results on some sample inputs from the paper (left-input, right-output).
+
+![Results1](sample_result.jpg)
+
+Results on some custom sample inputs (left-input, right-output).
+
+![Results2](our_custom_inputs.jpg)
+
+**Additional Result:** We observed that this enhancement method when applied on the input image iteratively can help identify hidden structures and patterns from even the darkest of the input images (see below example).
+
+![Results2](additional_observation.jpg)
+
 # Libraries Used (in Python3)
  - cv2
  - scipy

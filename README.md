@@ -28,7 +28,7 @@ Results on some custom inputs (left-input, right-enhanced output).
 
 ![Results2](our_custom_inputs.jpg)
 
-**Additional Result:** We observed that this enhancement method when applied on the input image iteratively can help identify hidden structures and patterns from even the darkest of the input images (see below example).
+**Additional Result:** We observed that this enhancement method when applied iteratively on the input image can help identify hidden structures and patterns from even the darkest of the input images (see below example).
 
 ![Results2](additional_observation.jpg)
 
